@@ -1,4 +1,4 @@
-# Clase 11: Frontend
+# Clase 11: Frontend 1 / Digital House
 
 ## Práctica: Cajas Flexibles
 
