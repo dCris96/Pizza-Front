@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+h2{
+    color: red;
+}
+
+header,
+footer{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 10px 20px;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logotipo img{
+    width: 92px;
+    display: block;
+}
+
+.empresa{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.pizza{
+    color: #39B24A;
+}
+
+.front{
+    color: #FC200C;
+}
+
+.menu ul{
+    display: flex;
+    gap: 13px;
+    font-size: 1rem;
+}
+
+main{
+    width: 986px;
+    margin: 35px auto;
+    display: flex;
+    gap: 5px;
+}
+
+.imagen-main{
+    position: relative;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.imagen-main img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagen-main h2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.imagen-main h2 .white{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.podio-main{
+    width: 490px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.podio-main h2{
+    margin: 20px 0 58px;
+}
+
+.podio-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.podio-text{
+    text-align: left;
+
+    & h3{
+        color: #222;
+        margin-bottom: 20px;
+        font-size: 1.25rem;
+    }
+
+    & ol{
+        font-size: 1rem;
+        color: #222;
+        font-weight: 700;
+
+        & li {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.podio-img{
+    padding: 30px 0;
+}
+
+footer{
+    padding: 20px 50px 20px 20px;
+}
+
+.menu-footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.menu-footer ul li{
+    color: #F3F3F3;
+    font-size: 1rem;
+}
+
+.Logo-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & p{
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+}
